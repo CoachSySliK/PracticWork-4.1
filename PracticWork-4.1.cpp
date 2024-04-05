@@ -10,16 +10,16 @@ int main()
     cin >> x;
     cout << "Введите второе число: ";
     cin >> y;
+    cout << "------Проверяем------\n";
 
     if (x < y) {
-        cout << x << " меньше чем " << y << endl << endl;
+        cout << "Наименьшее число: " << x << endl;
 	}
 	else if (x > y) {
-        cout << x << " больше чем " << y << endl << endl;
+        cout << "Наименьшее число: " << y << endl;
 	}
-	else {
-        cout << x << " равно " << y << endl << endl;
+    else {
+        cout << "Эти два числа равны\n";
     }
-    
     return 0;
 }
